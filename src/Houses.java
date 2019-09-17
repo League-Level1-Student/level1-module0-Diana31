@@ -11,7 +11,7 @@ public static void main(String[] args) {
 	r2d2.move(20);
 	r2d2.turn(90);
 	r2d2.move(100);
-	
+	static void 
 	
 	
 }
