@@ -36,7 +36,7 @@ public class PhotoQuiz {
 		// 5. call the pack() method on the quiz window
 		quizWindow.pack();
 		// 6. ask a question that relates to the image
-		String question = JOptionPane.showInputDialog("Is the snail cute");
+		
 		// 7. print "CORRECT" if the user gave the right answer
 		
 		// 8. print "INCORRECT" if the answer is wrong

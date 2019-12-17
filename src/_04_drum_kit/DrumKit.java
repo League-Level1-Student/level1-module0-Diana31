@@ -40,7 +40,7 @@ public class DrumKit implements MouseListener {
 		croissant.add(butter);
 		// 7. Download an image of a drum from the Internet. Drop it into your
 		// Eclipse project under "default package".
-		String drums = "https://www.pinclipart.com/picdir/middle/109-1094220_drum-cymbals-png-download-musical-instrument-drum-clipart.png";
+		String drums = "snare.jpg";
 		// 8. Put the name of your image file in a String variable.
 		
 		// 9. Edit the next line to use your String variable
@@ -71,9 +71,11 @@ public class DrumKit implements MouseListener {
 		// 15. Download a drum sound and drop it into your "default package".
 		// You can find it on freesound.org. To download it, log in as
 		// leagueofamazing/code4life.
-
+		String noise = "drum.wav";
 		// 16. If they clicked on the drumImage...
-
+		if(e.getSource()==drumLabelWithImage) {
+			playSound("drum.wav");
+		}
 		// 17. ...use the playSound method to play a drum sound. Test to see if
 		// it works
 
